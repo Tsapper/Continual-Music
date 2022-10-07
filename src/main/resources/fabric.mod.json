@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Continual Music",
-  "description": "Lets you edit the duration of no music between songs.",
+  "description": "Let's you edit the duration of no music between songs.",
   "authors": [
     "Tsapper"
   ],
