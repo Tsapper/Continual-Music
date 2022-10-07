@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "continualmusic",
+  "version": "${version}",
+
+  "name": "Continual Music",
+  "description": "Lets you edit the duration of no music between songs.",
+  "authors": [
+    "Tsapper"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Tsapper/Continual-Music"
+  },
+
+  "license": "MIT",
+  "icon": "assets/continualmusic/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.tsapper.continualmusic.ContinualMusic"
+    ],
+    "modmenu": [
+      "net.tsapper.continualmusic.config.ContinualMusicModMenu"
+    ]
+  },
+  "mixins": [
+    "continualmusic.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

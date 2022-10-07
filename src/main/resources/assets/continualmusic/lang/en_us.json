@@ -1,0 +1,5 @@
+{
+  "text.autoconfig.continualmusicconfig.title": "Continual Music",
+  "text.autoconfig.continualmusicconfig.option.time": "Time",
+  "text.autoconfig.continualmusicconfig.option.time.@Tooltip": "Time between songs in seconds."
+}
